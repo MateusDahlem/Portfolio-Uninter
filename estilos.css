@@ -1,0 +1,225 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2D3034;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url('imagens/montanha4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2B2B;
+    color: white;
+    height: 60px;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 14pt;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 0 60px;
+}
+
+.contatoMenu {
+    padding: 5px 15px;
+    background: linear-gradient(35deg, #74949C, #AFACA5, #74949C);
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2B2B;
+    color: white;
+    height: 50px;
+    padding: 0 60;
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+}
+
+footer p {
+    font-size: 10pt;
+    font-weight: 100;
+    padding: 0 60px;
+}
+
+.home{
+    height: 80vh;
+}
+
+.tituloHome{
+    font-size: 50pt;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 60px;
+}
+
+.pHome{
+    font-size: 20pt;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 0px;
+}
+
+.tituloSM{
+    font-size: 50pt;
+    font-weight: 700;
+    color: white;
+    top: 100px;
+    position: relative;
+    padding: 0 60px;
+}
+
+.pSM{
+    font-size: 13pt;
+    text-align: left;
+    color: white;
+    top: 120px;
+    position: relative;
+    padding: 0 60px;
+}
+
+.imgSM {
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    right:0px;
+}
+
+.tituloForm{
+    font-size: 50pt;
+    font-weight: 700;
+    color: white;
+    top: 100px;
+    position: relative;
+    padding: 0 60px;
+}
+
+.pForm{
+    font-size: 13pt;
+    text-align: left;
+    color: white;
+    top: 120px;
+    position: relative;
+    padding: 0 60px;
+    width: 700px;
+}
+
+.imgForm {
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    right: 0px;
+}
+
+#port {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+  
+#port img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+}
+
+.tituloPort{
+    font-size: 50pt;
+    font-weight: 700;
+    color: white;
+    top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.contatos {
+    height: 80vh;
+    text-align: center;
+}
+
+.tituloContato {
+    font-size: 30pt;
+    font-weight: 700;
+    color: white;
+}
+
+table {
+    width: 1000px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+
+td {
+    padding: 5px;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    background-color: #2B2B2B;
+    color: white;
+    border: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(35deg, #74949C, #AFACA5, #74949C);
+    border: none;
+    border-radius: 30px;
+    top: 40px;
+    position: relative;
+}
+
+ button a {
+    color: white;
+    text-decoration: none;
+ }
